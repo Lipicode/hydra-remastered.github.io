@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^$ /hydraproxy/ [L]
+RewriteCond %{REQUEST_URI} !^/hydraproxy/
+RewriteRule ^(.*)$ /hydraproxy/$1 [L]
