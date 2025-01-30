@@ -49,7 +49,7 @@ body {
 }
 
 .search-container input::placeholder {
-    color: #000;
+    color: #bbb;
 }
 
 .bottom-left-buttons {
